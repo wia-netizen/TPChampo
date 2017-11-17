@@ -12,10 +12,7 @@ import static org.junit.Assert.*;
 public class ChampollionJUnitTest {
 	Enseignant untel;
 	UE uml, java;
-	
-	public ChampollionJUnitTest() {
-	}
-	
+		
 	@Before
 	public void setUp() {
 		untel = new Enseignant("untel", "untel@gmail.com");
@@ -26,13 +23,11 @@ public class ChampollionJUnitTest {
 
 	@Test
 	public void testNouvelEnseignantSansService() {
-		assertTrue(0 == untel.heuresPrevues());
+		assertEquals(0, untel.heuresPrevues());
 	}
 	
 	@Test
 	public void testAjouteHeures() {
-		// Au début, aucune heure prévue
-		assertEquals(0, untel.heuresPrevues());
 		untel.ajouteEnseignement(uml, 0, 10, 0);
 		// Il a maintenant 10 heures prévues pour cette UE
 		assertEquals(10, untel.heuresPrevuesPourUE(uml));
