@@ -14,9 +14,9 @@ public class Main {
         lamine.ajouteEnseignement(bd,   10, 20, 15);
         lamine.ajouteEnseignement(web,  15, 15, 25);
 
-        System.out.printf("Mr. %s a un total de %d heures prévues\n", bastide.getNom(), bastide.heuresPrevues());
-        System.out.printf("Mr. %s a un total de %d heures prévues\n",  lamine.getNom(),  lamine.heuresPrevues());
-        System.out.printf("Mr. %s a un total de %d heures prévues dans l'UE %s\n", 
+        System.out.printf("Mr. %s a un total de %.2f heures prévues\n", bastide.getNom(), bastide.heuresPrevues());
+        System.out.printf("Mr. %s a un total de %.2f heures prévues\n",  lamine.getNom(),  lamine.heuresPrevues());
+        System.out.printf("Mr. %s a un total de %.2f heures prévues dans l'UE %s\n", 
                 bastide.getNom(), 
                 bastide.heuresPrevuesPourUE(uml),
                 uml.getIntitule()
