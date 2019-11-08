@@ -15,7 +15,7 @@ public class Enseignant extends Personne {
      * 1 heure de TP vaut 0,75h "équivalent TD"
      * @return le nombre total d'heures "équivalent TD" prévues pour cet enseignant
      **/
-    public int heuresPrevues() {
+    public float heuresPrevues() {
          // TODO: Implémenter cette méthode
         throw new UnsupportedOperationException("Pas encore implémenté");
     }
@@ -30,7 +30,7 @@ public class Enseignant extends Personne {
      * @param ue l'UE concernée
      * @return le nombre total d'heures "équivalent TD" prévues pour cet enseignant
      **/
-    public int heuresPrevuesPourUE(UE ue) {
+    public float heuresPrevuesPourUE(UE ue) {
          // TODO: Implémenter cette méthode
         throw new UnsupportedOperationException("Pas encore implémenté");
     }

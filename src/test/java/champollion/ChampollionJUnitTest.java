@@ -23,17 +23,18 @@ public class ChampollionJUnitTest {
 
 	@Test
 	public void testNouvelEnseignantSansService() {
-		assertEquals(0, untel.heuresPrevues());
+		// Le dernier paramètre représente la "marge d'erreur" acceptable
+		assertEquals(0, untel.heuresPrevues(), 0.001f);
 	}
 	
 	@Test
 	public void testAjouteHeures() {
 		untel.ajouteEnseignement(uml, 0, 10, 0);
 		// Il a maintenant 10 heures prévues pour cette UE
-		assertEquals(10, untel.heuresPrevuesPourUE(uml));
+		assertEquals(10, untel.heuresPrevuesPourUE(uml), 0.001f);
 		untel.ajouteEnseignement(uml, 0, 20, 0);
 		// Il a maintenant 10 + 20 heures prévues pour cette UE
-		assertEquals(10 + 20, untel.heuresPrevuesPourUE(uml));		
+		assertEquals(10 + 20, untel.heuresPrevuesPourUE(uml), 0.001f);		
 		
 	}
 	
