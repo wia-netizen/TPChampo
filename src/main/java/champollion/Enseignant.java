@@ -1,6 +1,7 @@
 package champollion;
 
 public class Enseignant extends Personne {
+	// TODO : rajouter les autres méthodes présentes dans le diagramme UML
 
     public Enseignant(String nom, String email) {
         super(nom, email);
