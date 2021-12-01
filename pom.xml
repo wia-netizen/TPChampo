@@ -19,8 +19,7 @@
         <assembly.mainClass>champollion.Main</assembly.mainClass>         
     </properties>    
         
-    <build>
-        
+    <build>       
         <plugins>
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
