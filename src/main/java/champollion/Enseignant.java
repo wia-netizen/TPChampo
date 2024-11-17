@@ -39,7 +39,7 @@ public class Enseignant extends Personne {
      * Ajoute un enseignement au service prévu pour cet enseignant
      *
      * @param ue l'UE concernée
-     * @param volumeCM le volume d'heures de cours magitral
+     * @param volumeCM le volume d'heures de cours magistral
      * @param volumeTD le volume d'heures de TD
      * @param volumeTP le volume d'heures de TP
      */

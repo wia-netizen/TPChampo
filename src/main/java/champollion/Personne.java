@@ -1,12 +1,11 @@
 
 package champollion;
 
-
 public abstract class Personne {
     private final String nom;
     private final String email;
 
-    public Personne(String nom, String email) {
+    protected Personne(String nom, String email) {
         this.nom = nom;
         this.email = email;
     }
@@ -18,6 +17,4 @@ public abstract class Personne {
     public String getEmail() {
         return email;
     }
-    
-    
 }
