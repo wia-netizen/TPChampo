@@ -1,5 +1,8 @@
 package champollion;
 
+/**
+ * Un exemple d'utilisation des classes
+ */
 public class Main {
     public static void main(String[] args) {
         Enseignant bastide = new Enseignant("Rémi Bastide", "Remi.Bastide@irit.fr");
@@ -20,7 +23,6 @@ public class Main {
                 bastide.getNom(),
                 bastide.heuresPrevuesPourUE(uml),
                 uml.getIntitule());
-
     }
 
 }

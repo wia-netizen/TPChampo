@@ -1,5 +1,9 @@
 package champollion;
 
+/**
+ * Un enseignant est caractérisé par les informations suivantes : son nom, son adresse email, et son service prévu,
+ * et son emploi du temps.
+ */
 public class Enseignant extends Personne {
 
     // TODO : rajouter les autres méthodes présentes dans le diagramme UML
