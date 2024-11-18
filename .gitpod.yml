@@ -1,11 +1,6 @@
 # Basic Java 21 configuration
 image: gitpod/workspace-java-17
 
-tasks:
-  - init: |
-      sdk install java 21.0.1-graal
-      sdk default java 21.0.1-graal
-
 # VS Code Java extensions
 vscode:
   extensions:
