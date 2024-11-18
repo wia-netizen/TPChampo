@@ -6,13 +6,6 @@ tasks:
       sdk install java 21.0.1-graal
       sdk default java 21.0.1-graal
 
-# Optional: Install additional tools
-tooling:
-  java:
-    image: gitpod/workspace-java-17
-    env:
-      JAVA_HOME: /home/gitpod/.sdkman/candidates/java/current
-
 # VS Code Java extensions
 vscode:
   extensions:
@@ -20,4 +13,3 @@ vscode:
     - vscjava.vscode-java-debug
     - vscjava.vscode-java-test
     - vscjava.vscode-maven
-    - vscjava.vscode-gradle
