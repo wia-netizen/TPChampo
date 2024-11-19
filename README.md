@@ -3,7 +3,7 @@ Cet énoncé fait suite à l’exercice UML « Champollion » traité en TP.
 # Énoncé
 ![Figure 1](./uml.png)
 
-Figure 1 : diagramme UML simplifié
+*Figure 1 : diagramme UML simplifié*
 
 La Figure 1 est un extrait simplifié de la correction de l’exercice UML « Champollion ».
 
