@@ -13,10 +13,10 @@ Dans la classe « `Enseignant` » :
 
 - La méthode « `ajouteEnseignement` » permet de rajouter un enseignement au _service prévu_ d’un enseignant.
 - La méthode « `heuresPrevues` » calcule le service prévu total d’un enseignant en heures « équivalent TD »  :
-- 1h de cours magistral vaut 1,5h « «équivalent TD »
-- 1h de TD vaut 1h « «équivalent TD »
-- 1h de TP vaut 0,75h « «équivalent TD »
-- Les calculs sont arrondis à l’entier le plus proche.
+    - 1h de cours magistral vaut 1,5h « «équivalent TD »
+    - 1h de TD vaut 1h «équivalent TD »
+    - 1h de TP vaut 0,75h «équivalent TD »
+    - Les calculs sont arrondis à l’entier le plus proche.
 - La méthode « `heuresPrevuesPourUE` » fait le même calcul, mais en se limitant à l’UE passée en paramètre.
 - La méthode « `ajouteIntervention` » ajoute une intervention planifiée pour cet enseignant. Quand on ajoute une intervention à un enseignant, on doit vérifier qu’on n’excède pas le service prévu pour cet enseignant, cette UE et ce type d’intervention. Dans le cas contraire, on lèvera une exception appropriée. On développera des tests unitaires pour vérifier que cette contrainte est respectée.
 - Un enseignant est en sous-service si son nombre d’heures prévues est inférieur à 192.
