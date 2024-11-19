@@ -2,7 +2,7 @@
 package champollion;
 
 /**
- *  Une Personne    , classe abstraite, sera spécifiée par des classes concrètes comme Étudiant ou Enseignant
+ * Une Personne , classe abstraite, sera spécifiée par des classes concrètes comme Étudiant ou Enseignant
  */
 public abstract class Personne {
     private final String nom;

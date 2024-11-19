@@ -19,6 +19,7 @@ Dans la classe « `Enseignant` » :
     - Les calculs sont arrondis à l’entier le plus proche.
 - La méthode « `heuresPrevuesPourUE` » fait le même calcul, mais en se limitant à l’UE passée en paramètre.
 - La méthode « `ajouteIntervention` » ajoute une intervention planifiée pour cet enseignant. Quand on ajoute une intervention à un enseignant, on doit vérifier qu’on n’excède pas le service prévu pour cet enseignant, cette UE et ce type d’intervention. Dans le cas contraire, on lèvera une exception appropriée. On développera des tests unitaires pour vérifier que cette contrainte est respectée.
+- La méthode « `resteAPlanifier` » donne la différence de volume horaire entre le service prévu et les interventions planifiées pour cet enseignant, avec l'UE et le type d’intervention fournis en paramètre.
 - Un enseignant est en sous-service si son nombre d’heures prévues est inférieur à 192.
 
 Vous disposez d’un squelette d’implémentation java. La classe `champollion.Main` donne un exemple d’utilisation des autres classes. Un jeu de test unitaire partiel est également fourni.

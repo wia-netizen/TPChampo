@@ -18,11 +18,16 @@ public class Main {
         lamine.ajouteEnseignement(web, 15, 15, 25);
 
         System.out.printf("Mr. %s a un total de %d heures prévues%n", bastide.getNom(), bastide.heuresPrevues());
+        System.out.printf("Mr. %s est-il en sous-service ? %b%n", bastide.getNom(), bastide.enSousService());
         System.out.printf("Mr. %s a un total de %d heures prévues%n", lamine.getNom(), lamine.heuresPrevues());
         System.out.printf("Mr. %s a un total de %d heures prévues dans l'UE %s%n",
                 bastide.getNom(),
                 bastide.heuresPrevuesPourUE(uml),
                 uml.getIntitule());
+        System.out.printf("Mr. %s a un total de %d heures prévues dans l'UE %s%n",
+                lamine.getNom(),
+                lamine.heuresPrevuesPourUE(web),
+                web.getIntitule());
     }
 
 }
